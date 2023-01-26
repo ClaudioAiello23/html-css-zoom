@@ -24,9 +24,9 @@ footer{
     border-top: 1px dashed white;
  }
 
- .main_container{
+ /* .main_container{
     background-color: yellow;
- }
+ } */
 
    /* 
 *****************
@@ -34,12 +34,13 @@ Common
 *****************
  */
 
- header
+ header,
+ main
  {
     background-color: black;
     padding-top: 7px;
  } 
- /* main da aggiungere */
+
 
  body * {
     color: white;
@@ -85,9 +86,18 @@ main{
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
-
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto;
 }
 
+.main_container img{
+    width: calc(100%/7);
+    padding-bottom: 10px;
+    padding-right: 5px;
+    
+}
 
 
    /* 
