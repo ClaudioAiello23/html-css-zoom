@@ -39,6 +39,10 @@ Common
     background-color: black;
  } 
  /* main da aggiungere */
+
+ body * {
+    color: white;
+ }
  
 
   /* 
@@ -47,8 +51,19 @@ Header
 *****************
  */
 
-header{
+.header_container{
     height: 5vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.header_icons a{
+    background-color: #4a4a4a;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 
