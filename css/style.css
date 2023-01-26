@@ -19,7 +19,6 @@ Setup
 /* header{
    border-bottom: 1px dashed white;
 }
-
 footer{
    border-top: 1px dashed white;
 } */
@@ -151,6 +150,3 @@ footer nav ul{
  color: red;
 }
 
-.settings, .end_box{
-   width: 15%;
-}
