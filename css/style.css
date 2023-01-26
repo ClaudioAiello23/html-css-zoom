@@ -100,33 +100,16 @@ main{
 }
 
 
-
-
   /* 
 *****************
 Footer
 *****************
 */
 
+
 footer{
    background-color: #222222;
    height: 10vh;
-}
-
-.settings ul li {
-   display: inline-block;
-   padding: 15px;
-   text-align: center;
-}
-
-.settings ul li a, .action_buttons ul li a{
-   font-size: 30px;
-}
-
-.action_buttons ul li{
-   display: inline-block;
-   padding: 15px;
-   text-align: center;
 }
 
 .footer_container{
@@ -134,6 +117,34 @@ footer{
    justify-content: space-between;
 }
 
-.end{
-   background-color: lightgray;
+footer nav ul{
+   display: flex;
+}
+
+.settings ul li, 
+.action_buttons ul li {
+   padding: 15px;
+   text-align: center;
+   list-style: none;
+}
+
+.settings ul li a, .action_buttons ul li a{
+   text-decoration: none;
+}
+
+.logical_icon{
+   font-size: 12px;
+}
+
+.footer_container a:not(.logical_icon){
+   font-size: 30px;
+}
+
+.end_box{
+   background-color: #4a4a4a;
+}
+
+.exit{
+ margin: 30px 5px;
+ color: red;
 }
