@@ -37,6 +37,7 @@ Common
  header
  {
     background-color: black;
+    padding-top: 7px;
  } 
  /* main da aggiungere */
 
@@ -55,17 +56,16 @@ Header
     height: 5vh;
     display:flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     padding-right: 10px;
 }
 
 .header_icons a{
     background-color: #4a4a4a;
     text-decoration: none;
-    border-radius: 3px;
-    padding: 5px;
+    border-radius: 5px;
+    padding: 5px 3px;
 }
-
 
    /* 
 *****************
